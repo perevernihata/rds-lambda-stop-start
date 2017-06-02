@@ -1,5 +1,6 @@
-This is lambda package which can start and stop AWS RDS instances. 
-You an configure Cloudwatch rule to emit event which stops multiple instaces by theirs ids: 
+This is AWS Lambda function which can start and stop AWS RDS instances. 
+
+You an configure Cloudwatch rule to emit event which stops multiple instaces by theirs ids.
 Example of start event:
 
 ```javascript
